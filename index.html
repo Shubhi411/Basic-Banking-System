@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .bg-1{
+	background-color: #ffffff;
+	}
+	.navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+	  padding: 2px;
+
+	 background: none;
+
+ 
+  color: #ffffff;
+  }
+	body {
+
+background-image: url("https://image.freepik.com/free-vector/colorful-gradient-background-with-bokeh-effect_23-2148358216.jpg");
+background-size: 100%;
+ 
+}
+
+</style>
+</head>
+<body>
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1 style="font-family: Lucida Bright">Banking System</h1>      
+    
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" class="active" href="index.html ">Home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+       
+        <li><a href="db_connection.php">All Customers</a></li>
+        <li><a href="transfer1.php">Transfer</a></li>
+        <li><a href="one.php">View one customer</a></li>
+       
+      </ul>
+	 </div>
+	 </div>
+	</nav>
+	 <div class="container text-center text-decoration text-shadow">
+    <h1 style="font-family: Brush Script MT">Welcome to Sparks Foundation Banking System</h1>
+	</div>
+	<div class="container text-center">
+    <img src="https://c0.wallpaperflare.com/preview/140/101/291/money-transfer-mobile-banking.jpg"  width="50%" height="70%">
+  
+  </div>
+  <div class="container-fluid text-center">
+ <a href="transfer.php" class="btn btn-default btn-lg">Transfer Money</a>
+  </div>
+  
+	
+</body>
+</html>
